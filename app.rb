@@ -12,8 +12,8 @@ class App < Sinatra::Base
 		erb :hello
 	end
 
-	get "/today" do
-		erb :today
+	get "/date" do
+		erb :date
 	end
 
 end
